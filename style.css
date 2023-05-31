@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(241, 241, 241);
+}
+body aside {
+  background-color: grey;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+body aside .picture {
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: white;
+}
+body main {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body main .sup, body main .inf {
+  height: 40%;
+  width: 90%;
+  background-color: grey;
+}
+body main .sup {
+  display: flex;
+}
+body main .sup .uno, body main .sup .due, body main .sup .tre {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body main .sup .uno {
+  justify-content: end;
+}
+body main .sup .uno button {
+  width: 80%;
+  height: 60px;
+  margin: 5px;
+  color: blue;
+}
+body main .sup .due {
+  justify-content: center;
+}
+body main .sup .due input {
+  width: 80%;
+  text-align: center;
+  margin: 5px;
+}
+body main .sup .tre {
+  justify-content: flex-start;
+}
+body main .sup .tre button {
+  height: 60px;
+  width: 80%;
+  margin: 5px;
+  color: blue;
+}
+body main .inf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body main .inf a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
